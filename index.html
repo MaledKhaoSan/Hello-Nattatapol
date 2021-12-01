@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="IMG/F5.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- //Style -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/YSLCsection.css">
+    <link rel="stylesheet" href="./CSS/AboutMeInsider.css">
+    <!-- ICON -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- //GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollToPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+
+    <!-- //bootstrap font jquery -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');</style>
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&display=swap" rel="stylesheet">
+
+    
+
+    <style>
+    /* canvas {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    } */
+    </style>
+</head>
+
+<body>
+    <section>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+    </section>
+
+
+
+    <!-- About Me Nav-->
+    <section id="intro">
+        <section>
+            <div id="AboutMeNav" class="AboutMeNav">
+                <a class="closebtn" onclick="CloseAboutMeNav()">&times;</a>                
+                
+                <section class="Nav-collum-container AboutMeNavSection0">
+                    <!-- Main Information -->
+                    <div>
+                        <h1 class="Nav-Header-Text" style="z-index: 10;"> print('Hello World'), <br>my name is Nattatapol Sawatmoon</h1>
+                        <h1 class="Nav-Header-Content" style="z-index: 10;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe labore <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe labore</h1>
+                    </div>
+
+                        <div class="Nav-name-box">
+                            <h1 class="Nav-name-text">ชื่อ</h1>
+                            <h1 class="Nav-name-text" style="white-space: pre; font-size: 0.8em; padding:  1.4em 0 0 1.7em; line-height: 2em;">“ต้น” ณฏฐพล สวัสดิ์มูล</h1>
+                        </div>
+    
+                        <div class="Nav-school-box">
+                            <h1 class="Nav-school-text">สถานศึกษา</h1>
+                            <h1 class="Nav-school-text" style="white-space: pre; font-size: 0.8em; padding:  1.2em 0 0 1.7em; line-height: 2em;">โรงเรียนสิงห์สมุทร <br>หลักสูตรวิทย์-คณิต</h1>
+                        </div>
+    
+                        <div class="Nav-age-box">
+                            <h1 class="Nav-age-text">อายุ</h1>
+                            <h1 class="Nav-age-text" style="white-space: pre; font-size: 0.8em; padding:  1.4em 0 0 1.7em; line-height: 2em;">18 ปี<br>3 พฤศจิกายน 46</h1>
+                        </div>
+                    <!-- Main Nav Img -->
+                    <div class="AboutMe-container-Inside">
+                        <div id="AboutMe-MainClip-Inside">
+                            <img src="IMG/AboutMe/AboutMe_Background4.png" class="AboutMe-MainIMG-Inside" style="z-index: 10;">
+                        </div>
+                    </div>
+                </section>
+                <!-- Icon -->
+                <section class="Nav-collum-container">
+                    <div class="IconWrapper">
+                        <a href="https://facebook.com/danishlaeeq1998">
+                          <div class="icon facebook">
+                            <span><i class="fab fa-facebook"></i></span>
+                          </div>
+                        </a>
+                        <a href="https://instagram.com/_danishlaeeq">
+                          <div class="icon instagram">
+                            <span><i class="fab fa-instagram"></i></span>
+                          </div>
+                        </a>
+                        <a href="https://github.com/danishlaeeq">
+                          <div class="icon github">
+                            <span><i class="fab fa-github"></i></span>
+                          </div>
+                        </a>
+                        <a href="https://twitter.com/_danishlaeeq">
+                            <div class="icon line">
+                              <span><i class="fab fa-line"></i></span>
+                            </div>
+                          </a>
+                        <a href="https://youtube.com">
+                          <div class="icon phone">
+                            <span><i class="fas fa-phone"></i></span>
+                          </div>
+                        </a>
+                    </div>
+
+
+
+                    <Section class="Nav-Skills-container">
+                        <div class="Nav-Skills-Box">
+                            <div class="Nav-Skills-Header">Skills <div class="Nav-Skills-lineDecorate"> </div></div>
+                        </div>
+                        
+                        <div class="SkillsWrapper">
+                            <div class="icon html">
+                                <img src="/IMG/AboutMe/Skills/html.png" class="icon-position">
+                                <h1 class="SkillsText">Html</h1>
+                            </div>
+    
+                            <div class="icon css">
+                                <img src="/IMG/AboutMe/Skills/css.png" class="icon-position">
+                                <h1 class="SkillsText">Css</h1>
+                            </div>
+    
+                            <div class="icon js">
+                                <img src="/IMG/AboutMe/Skills/js.png" class="icon-position">
+                                <h1 class="SkillsText">JavaScript</h1>
+                            </div>
+    
+                            <div class="icon csharp">
+                                <img src="/IMG/AboutMe/Skills/csharp.png" class="icon-position">
+                                <h1 class="SkillsText">C#</h1>
+                            </div>
+    
+                            <div class="icon python">
+                                <img src="/IMG/AboutMe/Skills/python.png" class="icon-position">
+                                <h1 class="SkillsText">Python</h1>
+                            </div>
+    
+                            <div class="icon vscode">
+                                <img src="/IMG/AboutMe/Skills/vscode.png" class="icon-position">
+                                <h1 class="SkillsText">Visual Code</h1>
+                            </div>
+    
+                            <div class="icon unity">
+                                <img src="/IMG/AboutMe/Skills/unity.png" class="icon-position">
+                                <h1 class="SkillsText">Unity</h1>
+                            </div>
+    
+                            <div class="icon figma">
+                                <img src="/IMG/AboutMe/Skills/figma.png" class="icon-position">
+                                <h1 class="SkillsText">Figma</h1>
+                            </div>
+    
+                            <div class="icon sketchup">
+                                <img src="/IMG/AboutMe/Skills/sketchup.png" class="icon-position">
+                                <h1 class="SkillsText">SketchUp</h1>
+                            </div>
+    
+                            <div class="icon photoshop">
+                                <img src="/IMG/AboutMe/Skills/photoshop.png" class="icon-position">
+                                <h1 class="SkillsText">Adobe Photoshop</h1>
+                            </div>
+                        </div>
+    
+    
+                        <div class="Nav-Skills-lineDecorate-end"> </div>
+                        
+
+                        <!-- <div class="bounce">
+                            <i class="fa fa-angle-double-down"></i>
+                        </div> -->
+                    </Section>
+                </section>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+        </section>
+
+        <!-- About Me Header-->
+        <div class="AboutMe-container">
+            <!-- Header -->
+            <!-- <div class='icon-scroll'></div> -->
+            <!-- <div id="AboutMeButton" class="AboutMeButton" onclick="AboutMeFunction();">
+                <h1 class="AboutMeButtonSpan">Profile</h1>
+            </div> -->
+
+            <div class='icon-scroll'></div>
+            <h1 class="linear-Portfolio-Header">Portfolio</h1>
+            <h1 class="linear-Portfolio-handWrite">Portfolio</h1>
+            <div class="Header-container">
+                <div class="Header-Font-fixed">Hi, I'm</div> <div style="padding-left: 0.5em;" class="Header-Font text"></div>
+            </div>
+            <div id="AboutMe-MainClip">
+                <img src="IMG/YSLC/static-assets-upload15406673765583719499.png" class="AboutMe-MainIMG" style="z-index: 10;">
+            </div>
+
+
+            
+                
+                <!-- <img src="IMG/AboutMe/AboutMe_Background1.png" class="AboutMe_MainBackGround AboutMe_Background1" style="z-index: 10;">
+                <div class="AboutMe-Text1-Box">
+                    <h1 class="AboutMe-Text1-deatil1">CREATIVE VISSION</h1>
+                    <h1 class="AboutMe-Text1"> DESIGN<br>THINKING</h1>
+                </div>
+
+                <img src="IMG/AboutMe/AboutMe_Background2.png" class="AboutMe_MainBackGround AboutMe_Background2" style="z-index: 8;">
+                <div class="AboutMe-Text2-Box">
+                    <h1 class="AboutMe-Text2"> GROWTH<br>MINDSET</h1>
+                </div>
+                
+                <img src="IMG/AboutMe/AboutMe_Background3.png" class="AboutMe_MainBackGround AboutMe_Background3" style="z-index: 6;">
+                <div class="AboutMe-Text3-Box">
+                    <h1 class="AboutMe-Text3">PASSIONATE ABOUT<br>PROGRAMMING</h1>
+                </div> -->
+        </div>        
+    </section>
+    <div class"helper"></div>
+
+    <!-- Horizontal container -->
+
+
+    <section class="Horizontal-Section">
+        <div id="main-Horizontal-container">
+            <section class="module">
+                <div class="Projects-Container">
+                    <video id="" muted="true" loop autoplay="autoplay" playsinline src="IMG/YSLC/riden.mov" type="video/mov" class="YSLC-mainbackground"></video>
+                    <div class="YSLC-content-box">
+                        <h1 class="YSLC-Header-Text" onclick="YSLC_deatil();">bully arataki itto's friend</h1>
+                        <!-- <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h1> -->
+                    </div>
+                </div>
+            </section>
+
+            <section class="module yellow">
+                <div class="Projects-Container">
+                    <video id="" muted="true" loop autoplay="autoplay" playsinline src="IMG/YSLC/Xiao.mp4" type="video/mp4" class="YSLC-mainbackground"></video>
+                    <div class="YSLC-content-box">
+                        <h1 class="YSLC-Header-Text" onclick="YSLC_deatil();">Give Me Primordial Jade Polearm</h1>
+                        <!-- <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h1> -->
+                    </div>
+                </div>
+            </section>
+
+            <section class="module yellow">
+                <div class="Projects-Container">
+                    <video id="" muted="true" loop autoplay="autoplay" playsinline src="IMG/YSLC/Hutao.mp4" type="video/mp4" class="YSLC-mainbackground"></video>
+                    <div class="YSLC-content-box">
+                        <h1 class="YSLC-Header-Text" onclick="YSLC_deatil();">Hutao at home</h1>
+                        <!-- <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h1> -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- <section class="module purple">
+                <div class="Projects-Container">
+                    <img src="IMG/YSLC/Activities1.png" class="YSLC-mainbackground" style="z-index: 10;">
+                </div>
+            </section>
+            
+            <section class="module orange">
+                <div class="Projects-Container">
+                    <img src="IMG/YSLC/Activities1.png" class="YSLC-mainbackground" style="z-index: 10;">
+                </div>
+            </section>
+            <section class="module blue">
+                <div class="Projects-Container">
+                    <img src="IMG/YSLC/Activities1.png" class="YSLC-mainbackground" style="z-index: 10;">
+                </div>
+            </section>
+            <section class="module red">
+                <div class="Projects-Container">
+                    <img src="IMG/YSLC/Activities1.png" class="YSLC-mainbackground" style="z-index: 10;">
+                </div>
+            </section>   -->
+        </div>
+    </section>
+
+    <script src="./JS/Animations.js"></script>
+    <script src="./JS/AboutMe.js"></script>
+    <script src="./JS/loading.js"></script>
+
+
+
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    </body>
+</html>

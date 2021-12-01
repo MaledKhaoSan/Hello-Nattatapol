@@ -1,0 +1,75 @@
+
+.module {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: inline-flex;
+  }
+  
+  .pink {
+    background-color: pink;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .red {
+    background-color: red;
+  }
+
+
+.Projects-Container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display:block;
+}
+
+
+.YSLC-mainbackground{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1; 
+    pointer-events: none;
+}
+
+.YSLC-content-box{
+    position: absolute;
+    width: 40%;
+    bottom: 3%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    z-index: 50; 
+    /* background-color: aquamarine;
+    border-right: 3px solid #FFFFFF;
+    border-radius: 16px; */
+}
+
+
+.YSLC-Header-Text{
+    color: #FAFAFA;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 2em; 
+    letter-spacing: 0.07em;
+    cursor: pointer;
+    
+    width: max-content;
+    padding: 1.6% 7% 1.6% 7%;
+    border: 2.3px solid #FFFFFF;
+  }
