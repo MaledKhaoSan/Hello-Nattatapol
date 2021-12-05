@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'Ivy-Mode-Light';
+    src: local('Ivy Mode Light'), local('../FONTS/Ivy-Mode-Light'),
+        url('../FONTS/IvyMode-Light.woff2') format('woff2'),
+        url('../FONTS/IvyMode-Light.woff') format('woff'),
+        url('../FONTS/IvyMode-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Ivy-Mode-Thin';
+    src: local('Ivy Mode Thin'), local('../FONTS/Ivy-Mode-Thin'),
+        url('../FONTS/IvyMode-Thin.woff2') format('woff2'),
+        url('../FONTS/IvyMode-Thin.woff') format('woff'),
+        url('../FONTS/IvyMode-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'creattion-demo-regular';
+    src: local('Lobster Regular'), local('../FONTS/creattion-demo.regular'),
+        url('../FONTS/creattion-demo.regular.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'RiotSquadNF';
+    src: local('Lobster Regular'), local('../FONTS/RiotSquadNF'),
+        url('../FONTS/RiotSquadNF.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Herbert-regular';
+    src: local('Lobster Regular'), local('../FONTS/Herbert-regular'),
+        url('../FONTS/Herbert-regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'AvenirNextLTPro-Bold';
+    src: local('Lobster Regular'), local('../FONTS/AvenirNextLTPro-Bold'),
+        url('../FONTS/AvenirNextLTPro-Bold.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'RL-Unno-Trial';
+    src: local('RL-Unno-Trial'), local('../FONTS/RL-Unno-Trial'),
+        url('../FONTS/RL-Unno-Trial.otf') format('opentype');
+
+    font-style: normal;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+  @import url('http://fonts.cdnfonts.com/css/domaine-sans-display'); 
+  @import url('http://fonts.cdnfonts.com/css/cocomat');
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
+
+  
+  .myProud{ 
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+  }
+  
+
+  .myProudColumn {
+    float: left;
+    padding: 10px;
+    width: 40%;
+    height: 100%; /* Should be removed. Only for demonstration */
+  }
+  
+/* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+  .myProud-container{ 
+    position:absolute;
+    width: inherit;
+    height: inherit;
+    background-color: lightblue;
+    /* opacity: 0; */
+  }
+
+
+  .myProud-container-text{
+    /* background-color: rgb(119, 156, 255); */
+    overflow: hidden;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    padding: 0 4rem 0 4rem;
+    /* position:absolute;
+    left: 50%;
+    top: 50%;
+    padding-right: 2rem;
+    margin: 0px;
+    transform: translate(-50%,-50%); */
+  }
+.myProud-container-text h5{
+  font-size: 5rem;
+  font-family: 'Chonburi', cursive;
+  text-align: center;
+  white-space: pre;
+  letter-spacing: 1px;
+  color: white;
+
+  margin: 0 0.5rem 0 0;
+  padding: 0.6em 1.1em 0.6em 1.1em;
+}
+
+
+.myProud-container-text h1{
+  font-size: 2rem;
+  font-family:'Sarabun';
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+  /* margin: 1.3rem; */
+  padding: 0px;
+  color: white;
+}
+
+
+
+
+
+
+  .myCerColumn {
+    float: left;
+    padding: 10px;
+    width: 60%;
+    height: 100%; /* Should be removed. Only for demonstration */
+    position: relative;
+    overflow: hidden;
+  }
+
+
+  .myCerSlide-item{ 
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /* position:absolute; */
+    /* width: max-content;
+    height: max-content; */
+    /* opacity: 0; */
+  }
+
+
+  .myCerSlide-item img{ 
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: scale-down; 
+  }
+
+
+  
+
+@media screen and (max-width: 1000px){
+   
+  .myCerColumn{
+    width: 100%;
+    /* height: 30vh; */
+  }
+
+  .myCerSlide-item{ 
+    width: 85%;
+  }
+
+  .myProudColumn{
+    width: 100%;
+    height: 90%;
+  }
+
+  .myProud-container-text h5{
+    font-size: 2rem;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 0.6em;
+  }
+  
+  
+  .myProud-container-text h1{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+}
+
+@media screen and (max-width: 767px){
+
+    .myCerColumn{
+      width: 100%;
+      height: 30vh;
+    }
+
+    .myCerSlide-item{ 
+      width: 85%;
+    }
+
+
+
+    .myProudColumn{
+      width: 100%;
+      height: 90%;
+    }
+
+    .myProud-container-text h5{
+      font-size: 2rem;
+      letter-spacing: 5px;
+      text-align: center;
+      padding: 0.6em;
+    }
+    
+    
+    .myProud-container-text h1{
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+    }
+
+}
