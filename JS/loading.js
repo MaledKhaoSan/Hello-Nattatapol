@@ -20,3 +20,21 @@ window.onbeforeunload = function () {
 window.scrollTo(0, 0);
 window.requestAnimationFrame();
 }
+
+
+
+
+$(document).ready(function() {
+	// Will remove overlay for users cannnot load properly.
+	setTimeout(function() {
+		$('.overlay').addClass('loaded');
+	}, 2900);
+
+	// Will wait for everything on the page to load.
+	$(window).bind('load', function() {
+		$('.overlay').addClass('loaded');
+		setTimeout(function() {
+			$('.overlay').css({'display':'none'})
+		}, 2900)
+	})
+})

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./CSS/MyProfile.css">
     <link rel="stylesheet" href="./CSS/MyWork.css">
     <link rel="stylesheet" href="./CSS/MyCer.css">
+    <link rel="stylesheet" href="./CSS/loading.css">
     <!-- ICON -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
@@ -49,15 +50,17 @@
 </head>
 
 <body>
-    <!-- <section>
-        <div id="mySidenav" class="myMainMenuSidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
+    <!-- ตรงนี้คือส่วนของ Loading Screen -->
+    <div class="overlay" id="loading">
+        <div class="overlayDoor"></div>
+        <div class="overlayContent">
+            <div id="loader">
+            <div id="box"></div>
+            <div id="hill"></div>
+            </div>
         </div>
-    </section> -->
+    </div>
+  
 
 
 
@@ -818,10 +821,9 @@
         }
     </script>
 
-
+    <script src="./JS/loading.js"></script>
     <script src="./JS/Animations.js"></script>
     <script src="./JS/AboutMe.js"></script>
-    <script src="./JS/loading.js"></script>
 
 
 

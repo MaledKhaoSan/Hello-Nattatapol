@@ -2,7 +2,7 @@ ScrollTrigger.matchMedia({
     //Laptop
     "(min-width: 1024px)": function() {
     var AboutMeIntrol = gsap.timeline();
-        AboutMeIntrol.to(".AboutMe-Text1-Box", 2.5,{scale: 25, left: "455%", ease: Power3.easeIn},">+0.5")
+        AboutMeIntrol.to(".AboutMe-Text1-Box", 2.5,{scale: 25, left: "455%", ease: Power3.easeIn},">+2")
         AboutMeIntrol.to(".AboutMe_Background1", 2.5,{scale: 4, left: "30%", ease: Power3.easeIn},"<")
 
         // AboutMeIntrol.to('.AboutMe_Background1', 1,{filter:"blur(4px)"},"<+1");
@@ -38,7 +38,7 @@ ScrollTrigger.matchMedia({
     
     "(max-width: 767px)": function() {
       var AboutMeIntrol = gsap.timeline();
-          AboutMeIntrol.to(".AboutMe-Text1-Box", 2.5,{scale: 100, left: "555%", ease: Power3.easeIn},">+0.5")
+          AboutMeIntrol.to(".AboutMe-Text1-Box", 2.5,{scale: 100, left: "555%", ease: Power3.easeIn},">+2")
           AboutMeIntrol.to(".AboutMe_Background1", 2.5,{scale: 4, left: "30%", ease: Power3.easeIn},"<")
   
           // AboutMeIntrol.to('.AboutMe_Background1', 1,{filter:"blur(4px)"},"<+1");
