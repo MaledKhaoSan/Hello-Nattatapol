@@ -211,7 +211,7 @@
 
 .slideshow-item-text p{
     /* font-size: 1.6rem; */
-    font-size: calc(1vw - 5%);
+    font-size: 1vw; */
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1px;
     font-weight: 300;
