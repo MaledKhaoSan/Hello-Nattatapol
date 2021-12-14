@@ -211,7 +211,7 @@
 
 .slideshow-item-text p{
     /* font-size: 1.6rem; */
-    font-size: 2px;
+    font-size: 1.6rem;
     /* font-size: calc(1vw - 1); */
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1px;
@@ -239,7 +239,7 @@
     }
 
     .slideshow-item-text p{
-        font-size: 2px;
+        font-size: 4px;
     }
 
     .slideshow-item-text h1{
@@ -284,7 +284,7 @@
     }
 
     .slideshow-item-text p{
-        font-size: 2px;
+        font-size: 4px;
         padding-top: 0.8rem;
     }
 
