@@ -1,11 +1,11 @@
-window.onload = function() {
-	document.body.scrollTop = 0;
-	document.documentElement.scrollTop = 0;
-	if(!window.location.hash) {
-		window.location = window.location + '#AboutMe';
-		window.location.reload();
-	}
-}
+// window.onload = function() {
+// 	document.body.scrollTop = 0;
+// 	document.documentElement.scrollTop = 0;
+// 	if(!window.location.hash) {
+// 		window.location = window.location + '#AboutMe';
+// 		window.location.reload();
+// 	}
+// }
 
 
 
@@ -28,13 +28,18 @@ $(document).ready(function() {
 	// Will remove overlay for users cannnot load properly.
 	setTimeout(function() {
 		$('.overlay').addClass('loaded');
-	}, 2900);
+	}, 3900);
 
 	// Will wait for everything on the page to load.
 	$(window).bind('load', function() {
 		$('.overlay').addClass('loaded');
 		setTimeout(function() {
 			$('.overlay').css({'display':'none'})
-		}, 2900)
+
+		}, 3900)
+		if(!window.location.hash) {
+			window.location = window.location + '#AboutMe';
+			window.location.reload();
+		}
 	})
 })
