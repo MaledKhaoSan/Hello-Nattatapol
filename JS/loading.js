@@ -28,7 +28,7 @@ $(document).ready(function() {
 	// Will remove overlay for users cannnot load properly.
 	setTimeout(function() {
 		$('.overlay').addClass('loaded');
-	}, 3900);
+	}, 10000);
 
 	// Will wait for everything on the page to load.
 	$(window).bind('load', function() {
