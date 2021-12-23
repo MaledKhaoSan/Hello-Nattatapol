@@ -36,7 +36,7 @@ $(document).ready(function() {
 		setTimeout(function() {
 			$('.overlay').css({'display':'none'})
 
-		}, 3900)
+		}, 10000)
 		if(!window.location.hash) {
 			window.location = window.location + '#AboutMe';
 			window.location.reload();
