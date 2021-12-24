@@ -31,7 +31,7 @@ ScrollTrigger.matchMedia({
         // AboutMeIntrol.to(".AboutMe-container, .AboutMe-container-Inside", 2, {scale: 1.1,ease: Power3.easeOut},"<+0.2");
         AboutMeIntrol.to("#intro", 1.2,{backgroundColor:"#272727", ease:Power3.easeOut},"<");
         AboutMeIntrol.from("#AboutMe-MainClip, #AboutMe-MainClip-Inside", 1.5, {borderRadius: "160% 500%",ease: Power3.easeOut},"<");
-        // AboutMeIntrol.from('.linear-Portfolio-Header, .AboutMeButton', 1.7,{filter:"blur(8px)", opacity: 0,ease: Power3.easeOut},"<");
+        AboutMeIntrol.from('.linear-Portfolio-Header, .AboutMeButton', 1.7,{opacity: 0,ease: Power3.easeOut},"<");
         AboutMeIntrol.set("body",{overflowY: "scroll"},"<");
     },
 
@@ -67,7 +67,7 @@ ScrollTrigger.matchMedia({
           // AboutMeIntrol.to(".AboutMe-container, .AboutMe-container-Inside", 2, {scale: 1.1,ease: Power3.easeOut},"<+0.2");
           AboutMeIntrol.to("#intro", 1.2,{backgroundColor:"#272727", ease:Power3.easeOut},"<");
           AboutMeIntrol.from("#AboutMe-MainClip, #AboutMe-MainClip-Inside", 1.5, {borderRadius: "160% 500%",ease: Power3.easeOut},"<");
-          // AboutMeIntrol.from('.linear-Portfolio-Header, .AboutMeButton', 1.7,{filter:"blur(8px)", opacity: 0,ease: Power3.easeOut},"<");
+          AboutMeIntrol.from('.linear-Portfolio-Header, .AboutMeButton', 1.7,{opacity: 0,ease: Power3.easeOut},"<");
           AboutMeIntrol.set("body",{overflowY: "scroll"},"<");
           
   
