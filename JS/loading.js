@@ -1,16 +1,3 @@
-// window.onload = function() {
-// 	document.body.scrollTop = 0;
-// 	document.documentElement.scrollTop = 0;
-// 	if(!window.location.hash) {
-// 		window.location = window.location + '#AboutMe';
-// 		window.location.reload();
-// 	}
-// }
-
-
-
-
-
 	if(window.location.hash) {
 		// Fragment exists
 		var refresh = window.localStorage.getItem('refresh');
@@ -36,39 +23,17 @@
 	  }
 
 
-
-
-
-
-// $(document).ready(function() {
-// 	// Will remove overlay for users cannnot load properly.
-// 	setTimeout(function() {
-// 		$('.overlay').addClass('loaded');
-// 	}, 10000);
-
-// 	// Will wait for everything on the page to load.
-// 	$(window).bind('load', function() {
-// 		$('.overlay').addClass('loaded');
-// 		setTimeout(function() {
-// 			$('.overlay').css({'display':'none'})
-
-// 		}, 10000)
-// 		if(!window.location.hash) {
-// 			window.location = window.location + '#AboutMe';
-// 			window.location.reload();
-// 		}
-// 	})
-// })
-
 $(document).ready(function() {
-	if(!window.location.hash) {
-		window.location = window.location + '#AboutMe';
-		$(window).bind('load', function() {
-			$('.overlay').addClass('loaded');
-			setTimeout(function() {
-				$('.overlay').css({'display':'none'})
+	$(window).bind('load', function() {
+		$('.overlay').addClass('loaded');
+		setTimeout(function() {
+			$('.overlay').css({'display':'none'})
+			if(!window.location.hash) {
+				window.location = window.location + '#AboutMe';
+				window.scrollTo(0, 0);
+				window.requestAnimationFrame();
+			}
 
-			}, 2900)
-		});
-	}
+		}, 2900)
+	});
 })
