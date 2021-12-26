@@ -43,5 +43,5 @@ $(document).ready(function() {
 	setTimeout(function() {
 		$('.overlay, body').addClass('loaded');
 		document.getElementById("loading").style.display = "none";
-	}, 5900);
+	}, 10000);
 })
